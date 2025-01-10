@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={  # 这个指定了当用户运行 `pdf-cropper` 时将执行的函数
         'console_scripts': [
-            'pdf-cropper=pdf_cropper.pdf_cropper:main',  # 你需要在 pdf_cropper.py 中定义一个 main 函数
+            'pdf-cropper=pdf_cropper:main',  # 你需要在 pdf_cropper.py 中定义一个 main 函数
         ],
     },
     include_package_data=True,  # 将非 Python 文件包含在包内
